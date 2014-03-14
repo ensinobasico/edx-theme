@@ -28,7 +28,7 @@
     <a href="${marketing_link('ABOUT')}">Sobre</a>
   </li>
    <li class="nav-global-02">
-    <a href="${reverse('shoppingcart.views.show_cart')">Donativos</a>
+    <a href="${marketing_link('ABOUT')}"">Donativos</a>
   </li>
 </%block>
 
@@ -41,7 +41,10 @@
     <a href="${marketing_link('COURSES')}">Encontra Cursos</a>
   </li>
   <li class="nav-global-02">
-    <a href="${marketing_link('DONATIONS')}">Donativos</a>
+    <a href="${marketing_link('ABOUT')}"">Donativos</a>
+  </li>
+  <li class="nav-global-02">
+    <a href="${reverse('shoppingcart.views.show_cart')">Compras</a>
   </li>
 </%block>
 
